@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Prompt', sans-serif;
+}
+
+html {
+    background-color: #caebce;
+}
+
+body {
+    background-color: rgba(255, 255, 255, 0.74);
+    width: 1000px;
+    margin: 32px auto;
+    border-radius: 25px;
+}
+
+/*header*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #caebce;
+}
+
+.img-container {
+    width: 30%;
+    text-align: center;
+    padding: 20px;
+}
+
+.img-container img {
+    width: 100%;
+    border-radius: 50%;
+
+}
+
+.nombre {
+    width: 70%;
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 42px;
+}
+
+h2 {
+    font-weight: 300;
+}
+
+/*fin header*/
+
+/*sección 1 - personal */
+.container {
+    display: flex;
+    padding-bottom: 20px;
+    
+}
+
+.personal {
+    width: 30%;
+    border-right: 2px solid #caebce;
+    margin: 0 12px 12px 12px;
+}
+
+h3 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+i {
+    width: 20px;
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+li {
+    margin-bottom: 4px;
+    margin-left: 16px;
+}
+
+.datos li {
+    list-style: none;
+    margin-left: 0;
+}
+
+.personal p {
+    margin-right: 4px;
+}
+
+#desplegar1, #desplegar2, #desplegar3 {
+    display: none;
+}
+
+.button-container {
+    width: 100%;
+    text-align: center;
+
+}
+
+button {
+    margin-top: 8px;
+    background-color: #caebce;
+    border: none;
+    border-radius: 50px;
+    width: 100px;
+}
+
+/*fin sección 1 - personal */
+
+/*sección 2 - experiencia */
+
+.exp-est {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.exp-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.exp-container:last-of-type {
+    margin-bottom: 0;
+}
+
+.exp-container p {
+    width: 120px;
+}
+
+.exp {
+    width: 500px;
+    padding-left: 40px;
+}
+
+h5 {
+    font-weight: 300;
+}
+
+.exp li {
+    font-style: italic;
+}
+#desplegar4 {
+    display: none;
+}
+/*fin sección 2 - experiencia */
